@@ -1,0 +1,24 @@
+- What happens if users choose “Cancel”?
+Nó sẽ tự động chọn là "NO"
+- How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t” 
+Đổi hộp thoại ConfirmDialog thành OptionDialog, khai sâu 2 lựa chọn option mà bạn muốn custom
+
+Ví dụ muốn đổi YES NO thành I do | I don't
+import javax.swing.JOptionPane;
+
+public class ChoosingOption {
+    public static void main(String[] args) {
+        String[] options = { "I do", "I don't" };
+        int option = JOptionPane.showOptionDialog(null,
+                "Do you want to change to the first class ticket?", "Choose an option",
+                JOptionPane.YES_NO_OPTION,
+                JOptionPane.QUESTION_MESSAGE,
+                null,
+                options, // Phan option ma ban can 
+                options[0]); // Option mac dinh
+
+        JOptionPane.showMessageDialog(null, "You've chosen: "
+                + (option == JOptionPane.YES_OPTION ? "I do" : "I don't"));
+        System.exit(0);
+    }
+}
