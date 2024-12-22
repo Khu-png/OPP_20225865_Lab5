@@ -1,0 +1,41 @@
+DVD 1 ID: 1
+The disc The Lion King has been added.
+DVD 2 ID: 2
+The disc Star Wars has been added.
+DVD 3 ID: 3
+The disc Aladin has been added.
+Total cost is: 
+69.850006
+***********************CART***********************
+Ordered Items:
+1. DVD - The Lion King - Animation - Roger Allers - 87: 19.95 $
+2. DVD - Star Wars - Science Fiction - George Lucas - 87: 24.95 $
+3. DVD - Aladin - Animation - N/A - 0: 24.95 $
+Total cost: 69.850006 $
+****************************************************
+DVD Star Wars has been removed.
+Total cost is: 
+44.9
+***********************CART***********************
+Ordered Items:
+1. DVD - The Lion King - Animation - Roger Allers - 87: 19.95 $
+2. DVD - Aladin - Animation - N/A - 0: 24.95 $
+Total cost: 44.9 $
+****************************************************
+The disc The Lion King has been added.
+Total cost is: 
+64.850006
+***********************CART***********************
+Ordered Items:
+1. DVD - The Lion King - Animation - Roger Allers - 87: 19.95 $
+2. DVD - Aladin - Animation - N/A - 0: 24.95 $
+3. DVD - The Lion King - Animation - Roger Allers - 87: 19.95 $
+Total cost: 64.850006 $
+****************************************************
+DVD found: DVD - The Lion King - Animation - Roger Allers - 87: 19.95 $
+DVD found: DVD - Aladin - Animation - N/A - 0: 24.95 $
+No DVD found with title containing "Titanic"
+
+Process finished with exit code 0
+
+Commit cho bai 6
